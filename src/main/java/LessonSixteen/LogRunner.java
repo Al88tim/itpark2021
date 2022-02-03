@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.stream.IntStream;
 
 public class LogRunner {
-    private static final String FILE_NAME = "C:\\test\\.txt";
+    private static final String FILE_NAME = "D:\\test\\.txt";
 
     public static void main(String[] args) {
         IntStream.range(0, 3).boxed().map(i -> {
